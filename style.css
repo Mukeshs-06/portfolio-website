@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f9fc;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #018ABE, #00B4D8);
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* SECTIONS */
+section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #018ABE;
+}
+
+/* SKILLS */
+.skills{
+    background: linear-gradient(135deg, #018ABE, #00B4D8);
+}
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* PROJECTS */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.project-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #018ABE;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* CONTACT */
+.contact {
+  background: linear-gradient(135deg, #018ABE, #00B4D8);
+  color: white;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contact button {
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  color: #018ABE;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  background: #012A4A;
+  color: white;
+  text-align: center;
+}
